@@ -11,8 +11,10 @@ Examples - External Test Data - CSV - Read CSV File by Column and Value TC01
     ${index}=          Get Test Case Data Index From Dictionary By Column                @{dict}       columnName=column1         testCaseNumber=TC01
     Log                ${dict[${${index}}]}[column1]
     Log                ${dict[${${index}}]}[column2]
+    Log                ${dict[${${index}}]}[column2]
     Log To Console     ${dict[${${index}}]}[column1]
     Log To Console     ${dict[${${index}}]}[column2]
+    Log To Console     ${dict[${${index}}]}[column3]
 
 
 Examples - External Test Data - CSV - Read CSV File by Column and Value TC02
@@ -20,8 +22,10 @@ Examples - External Test Data - CSV - Read CSV File by Column and Value TC02
     ${index}=          Get Test Case Data Index From Dictionary By Column               @{dict}        columnName=column1        testCaseNumber=TC02
     Log                ${dict[${${index}}]}[column1]
     Log                ${dict[${${index}}]}[column2]
+    Log                ${dict[${${index}}]}[column2]
     Log To Console     ${dict[${${index}}]}[column1]
     Log To Console     ${dict[${${index}}]}[column2]
+    Log To Console     ${dict[${${index}}]}[column3]
 
 
 Examples - External Test Data - CSV - Read CSV File by Column and Value TC03
@@ -29,8 +33,10 @@ Examples - External Test Data - CSV - Read CSV File by Column and Value TC03
     ${index}=          Get Test Case Data Index From Dictionary By Column                @{dict}        columnName=column1        testCaseNumber=TC03
     Log                ${dict[${${index}}]}[column1]
     Log                ${dict[${${index}}]}[column2]
+    Log                ${dict[${${index}}]}[column2]
     Log To Console     ${dict[${${index}}]}[column1]
     Log To Console     ${dict[${${index}}]}[column2]
+    Log To Console     ${dict[${${index}}]}[column3]
 
 
 Examples - External Test Data - CSV - Read CSV File by Column and Value TC04
@@ -38,8 +44,10 @@ Examples - External Test Data - CSV - Read CSV File by Column and Value TC04
     ${index}=          Get Test Case Data Index From Dictionary By Column                @{dict}        columnName=column1        testCaseNumber=TC04
     Log                ${dict[${${index}}]}[column1]
     Log                ${dict[${${index}}]}[column2]
+    Log                ${dict[${${index}}]}[column2]
     Log To Console     ${dict[${${index}}]}[column1]
     Log To Console     ${dict[${${index}}]}[column2]
+    Log To Console     ${dict[${${index}}]}[column3]
 
 
 
