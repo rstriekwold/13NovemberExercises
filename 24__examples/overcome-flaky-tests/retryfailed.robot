@@ -12,11 +12,11 @@ ${has_failed1}=    ${FALSE}
 ${has_failed2}=    ${FALSE}
 
 *** Test Cases ***
-Examples - Always Fails with First Try
+Examples - Overcome Flaky Tests - Always Fails with First Try
     Log    First Run    console=True
     Fail    This will fail
 
-Examples - Always Passes after Second Try
+Examples - Overcome Flaky Tests - Always Passes after Second Try
     IF    not $has_failed
         Set Suite Variable   ${has_failed1}    ${TRUE}
         Log    First Run    console=True
@@ -25,7 +25,7 @@ Examples - Always Passes after Second Try
     Log    Second Run    console=True
     Pass Execution    This will pass
 
-Examples - Always Failes after Second Try
+Examples - Overcome Flaky Tests - Always Failes after Second Try
     IF    not $has_failed
         Set Suite Variable   ${has_failed2}    ${TRUE}
         Log    First Run    console=True
