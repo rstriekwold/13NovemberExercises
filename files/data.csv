@@ -1,5 +1,5 @@
-*** Test Cases ***;${column1};${column2};[Tags];[Documentation]
-TC01;Patrick Smith;Address 1;TC01;some docs
-TC02;John Connor;Address 2;TC02;some docs
-TC03;Peter Wright;Address 3;TC03;some docs
-TC04;Glenn van der Sand;Address 4;TC04;some docs
+column1;column2;column3;
+TC01;Patrick Smith;Address 1
+TC02;John Connor;Address 2
+TC03;Peter Wright;Address 3
+TC04;Glenn van der Sand;Address 4
