@@ -4,7 +4,7 @@ Documentation                   New test suite
 Resource                        ../../resources/common.robot
 Library                         RetryFailed    global_retries=3   keep_retried_tests=False    log_level=None
 Test Setup                      Open Browser                about:blank                 chrome
-Test Teardown                   Close All Browsers
+Test Teardown                   Close All Browser Sessions
 
 *** Variables ***
 # Only used for simulation purposes
