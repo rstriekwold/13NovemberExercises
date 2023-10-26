@@ -8,7 +8,7 @@ Suite Teardown         Close All Browsers
 *** Test Cases ***
 Examples - External Test Data - CSV - Read CSV File by Column and Value TC01
     @{dict}=           read csv file to associative                            ${CURDIR}${/}..${/}..${/}..${/}files${/}data.csv    delimiter=;
-    ${index}=          Get Test Case Data Index From Dictionary By Column                @{dict}       columnName=*** Test Cases ***         testCaseNumber=TC01
+    ${index}=          Get Test Case Data Index From Dictionary By Column                @{dict}       columnName=column1         testCaseNumber=TC01
     Log                ${dict[${${index}}]}[column1]
     Log                ${dict[${${index}}]}[column2]
     Log To Console     ${dict[${${index}}]}[column1]
@@ -17,7 +17,7 @@ Examples - External Test Data - CSV - Read CSV File by Column and Value TC01
 
 Examples - External Test Data - CSV - Read CSV File by Column and Value TC02
     @{dict}=           read csv file to associative                            ${CURDIR}${/}..${/}..${/}..${/}files${/}data.csv    delimiter=;
-    ${index}=          Get Test Case Data Index From Dictionary By Column               @{dict}        columnName=*** Test Cases ***        testCaseNumber=TC02
+    ${index}=          Get Test Case Data Index From Dictionary By Column               @{dict}        columnName=column1        testCaseNumber=TC02
     Log                ${dict[${${index}}]}[column1]
     Log                ${dict[${${index}}]}[column2]
     Log To Console     ${dict[${${index}}]}[column1]
@@ -26,7 +26,7 @@ Examples - External Test Data - CSV - Read CSV File by Column and Value TC02
 
 Examples - External Test Data - CSV - Read CSV File by Column and Value TC03
     @{dict}=           read csv file to associative                            ${CURDIR}${/}..${/}..${/}..${/}files${/}data.csv    delimiter=;
-    ${index}=          Get Test Case Data Index From Dictionary By Column                @{dict}        columnName=*** Test Cases ***        testCaseNumber=TC03
+    ${index}=          Get Test Case Data Index From Dictionary By Column                @{dict}        columnName=column1        testCaseNumber=TC03
     Log                ${dict[${${index}}]}[column1]
     Log                ${dict[${${index}}]}[column2]
     Log To Console     ${dict[${${index}}]}[column1]
@@ -35,7 +35,7 @@ Examples - External Test Data - CSV - Read CSV File by Column and Value TC03
 
 Examples - External Test Data - CSV - Read CSV File by Column and Value TC04
     @{dict}=           read csv file to associative                            ${CURDIR}${/}..${/}..${/}..${/}files${/}data.csv    delimiter=;
-    ${index}=          Get Test Case Data Index From Dictionary By Column                @{dict}        columnName=*** Test Cases ***        testCaseNumber=TC04
+    ${index}=          Get Test Case Data Index From Dictionary By Column                @{dict}        columnName=column1        testCaseNumber=TC04
     Log                ${dict[${${index}}]}[column1]
     Log                ${dict[${${index}}]}[column2]
     Log To Console     ${dict[${${index}}]}[column1]
