@@ -8,8 +8,7 @@ Test Teardown                   Close All Browser Sessions
 
 *** Variables ***
 # Only used for simulation purposes
-${has_failed1}=    ${FALSE}
-${has_failed2}=    ${FALSE}
+${has_failed}=    ${FALSE}
 
 *** Test Cases ***
 Examples - Overcome Flaky Tests - Always Fails with First Try
@@ -18,18 +17,9 @@ Examples - Overcome Flaky Tests - Always Fails with First Try
 
 Examples - Overcome Flaky Tests - Always Passes after Second Try
     IF    not $has_failed
-        Set Suite Variable   ${has_failed1}    ${TRUE}
+        Set Suite Variable   ${has_failed}    ${TRUE}
         Log    First Run    console=True
         Fail    This will fail
     END
     Log    Second Run    console=True
     Pass Execution    This will pass
-
-Examples - Overcome Flaky Tests - Always Failes after Second Try
-    IF    not $has_failed
-        Set Suite Variable   ${has_failed2}    ${TRUE}
-        Log    First Run    console=True
-        Fail    This will fail
-    END
-    Log    Second Run    console=True
-    Fail    This will fail
