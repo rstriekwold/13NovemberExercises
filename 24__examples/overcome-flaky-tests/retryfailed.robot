@@ -2,7 +2,7 @@
 
 Documentation                   New test suite
 Resource                        ../../resources/common.robot
-Library                         RetryFailed    global_retries=4   keep_retried_tests=False    log_level=None
+Library                         RetryFailed    global_retries=3   keep_retried_tests=False    log_level=None
 Test Setup                      Open Browser                about:blank                 chrome
 Test Teardown                   Close All Browsers
 
@@ -18,7 +18,7 @@ Examples - Always Fails with First Try
 
 Examples - Always Passes after Second Try
     IF    not $has_failed
-        Set Suite Variable   ${has_failed}    ${TRUE}
+        Set Suite Variable   ${has_failed1}    ${TRUE}
         Log    First Run    console=True
         Fail    This will fail
     END
@@ -27,7 +27,7 @@ Examples - Always Passes after Second Try
 
 Examples - Always Failes after Second Try
     IF    not $has_failed
-        Set Suite Variable   ${has_failed}    ${TRUE}
+        Set Suite Variable   ${has_failed2}    ${TRUE}
         Log    First Run    console=True
         Fail    This will fail
     END
