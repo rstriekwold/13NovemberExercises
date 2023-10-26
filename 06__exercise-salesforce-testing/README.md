@@ -20,17 +20,17 @@ The purpose of this exercise is to learn how to create and run your first test a
 - Create Test Case Enter a Lead
 - Create Test Case Delete a Lead
 
-# Learn how to requests a Salesforce Trial Org.
+# Learn how to Create a Test in Salesforce
 
 1. Create a new empty suite **exercise 6 salesforce testing**
 
 2. Create a folder in the root named **06__exercise-salesforce-testing**
 
-3. In this foler, create file salesforce.robot and copy the contents from here [salesforce.robot](salesforce.robot)
+3. In this folder, create file salesforce.robot and copy the contents from here [salesforce.robot](salesforce.robot)
 
 4. Create a folder in root named **resources**
 
-5. In this foler, create file common.robot and copy the contents from here [common.robot](../resources/common.robot)
+5. In this folder, create file common.robot and copy the contents from here [common.robot](../resources/common.robot)
 
 6. Open common.robot inside the folder
 
