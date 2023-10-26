@@ -2,3 +2,4 @@
 pyyaml
 robotframework-datadriver
 robotframework-csvlibrary
+robotframework-retryfailed
