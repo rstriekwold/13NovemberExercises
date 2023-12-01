@@ -15,7 +15,6 @@ Exercise 15 - Generate Random String
     ${low}=	Generate Random String	12	[LOWER]
     ${bin}=	Generate Random String	8	01
     ${hex}=	Generate Random String	4	[NUMBERS]abcdef
-    ${plusprefix}=	Generate Random String	4	${ret}\[NUMBERS]
     ${rnd}=	Generate Random String	5-10	# Generates a string 5 to 10 characters long
 
 Exercise 15 - Catenate Strings
