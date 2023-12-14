@@ -38,3 +38,4 @@ Exercise 2 - Consulting Libraries
     Log Screenshot
     Go To             https://guykisel.github.io/robotframework-faker/
     Log Screenshot
+    Sleep             120
