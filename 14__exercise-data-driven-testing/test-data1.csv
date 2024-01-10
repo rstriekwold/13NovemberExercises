@@ -1,0 +1,3 @@
+*** Test Cases ***;lead_status;last_name;company;first_name;salutation;[Tags];[Documentation]
+Exercise 14 - Data Driven Testing CSV - Create Lead using Suite Test Template Unique Data;Working;${last_name};${company};${first_name};Ms.;csv1;some docs
+Exercise 14 - Data Driven Testing CSV - Create Lead using Suite Test Template Fixed Data;Working;Smith;Growmore;Tina;Ms.;csv2;some docs
