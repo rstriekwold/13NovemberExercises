@@ -2,7 +2,7 @@
 Library               QWeb
 Suite Setup           Open Browser    about:blank    chrome
 Suite Teardown        CloseAllBrowsers
-testtest
+
 
 *** Test Cases ***
 Exercise 2 - Consulting Libraries
