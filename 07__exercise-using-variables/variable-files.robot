@@ -29,7 +29,7 @@ Exercise 7 - Variable Files Access Dynamic Variables
     Log   ${AREA2}
 
 Exercise 7 - Variable Files Use variable file with argument value dev
-    Import Variables	${CURDIR}/EnvVariables.py    dev
+    Import Variables	${CURDIR}/EnvVariables.py    ${environment}
     Log            ${scalar}
     Log            ${list}
     ${the_var}=    Get Variable Value    ${extra}
