@@ -1,4 +1,4 @@
-class TestEnv:
+class TestEnvUAT:
     ip = '123.4.5.6'
     user = 'robot'
     roles = ['admin', 'user']
