@@ -1,7 +1,8 @@
 *** Settings ***
 Documentation       Robot Framework 5 syntax recipes cheat sheet robot.
 ...                 Demonstrates Robot Framework syntax in a concise format.
-Suite Setup         Log    Suite Setup!
+Suite Setup         Open Browser    about:blank    chrome
+Library    QWeb
 Suite Teardown      Log    Suite Teardown!
 Test Setup          Log    Test Setup!
 Test Teardown       Log    Test Teardown!

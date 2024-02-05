@@ -1,0 +1,12 @@
+
+#
+# QEditor test suite configuration
+#
+
+# Make sure to include at least one space after each configuration option
+
+name: QEditor / Copado Robotic Testing configuration
+description: Configuration for Copado Robotic Testing integration
+version: 0.0.1
+
+url: https://robotic.eu-copado.com/robots/34282/r/21939/suite/63213
