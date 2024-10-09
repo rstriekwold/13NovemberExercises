@@ -11,7 +11,7 @@ Exercise 10 - Using Suite Setup, Test Setup, Test Teardown and Suite Teardown fr
 
 Exercise 10 - Overridden Test Teardown and Suite Teardown
     [Setup]                     Create Lead
-    Appstate                    Home
+    Home
     LaunchApp                   Sales
     ClickText                   Leads
     VerifyText                  Tina Smith
