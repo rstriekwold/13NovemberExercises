@@ -1,10 +1,10 @@
 *** Settings ***
 Resource                        ../resources/common.robot
 Resource                        ../resources/leads.robot
-Library                         DataDriver     reader_class=TestDataApi    name=Leads.csv   include=alternate CSV    #exclude=tagtoexclude
+Library                         DataDriver     reader_class=TestDataApi    name=test-data1.csv   include=alternate CSV    #exclude=tagtoexclude
 Library                         FakerLibrary
 Suite Setup                     Setup Browser
-Test Setup                      Home 
+Test Setup                      Run Keywords                Home                        Unique Test Data
 Suite Teardown                  Close All Browser Sessions
 Test Template                   Create Verify and Delete Lead End to End
 
@@ -21,3 +21,11 @@ Create Verify and Delete Lead End to End
     Create Lead                 ${lead_status}              ${last_name}                ${company}             ${salutation}               ${first_name}         
     Verify Lead                 ${lead_status}              ${last_name}                ${company}             ${salutation}               ${first_name}
     Delete Lead                 ${first_name}               ${last_name}
+
+Unique Test Data
+    ${Last_Name}=               Last Name
+    Set Suite Variable          ${last_name}                ${Last Name}
+    ${Company}=                 Company
+    Set Suite Variable          ${company}                  ${Company}
+    ${First_Name}=              First Name
+    Set Suite Variable          ${first_name}               ${First_Name}
