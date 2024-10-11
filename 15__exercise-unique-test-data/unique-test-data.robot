@@ -25,7 +25,7 @@ Exercise 15 - Catenate Strings
 Exercise 15 - Log Unique Test Data generated using FakerLibrary
     ${license_plate}=         License Plate
     ${company}=               Company
-    ${company}=               Address
+    ${address}=               Address
     ${timestamp}=             Unix Time
 
 Exercise 15 - Todays Date
