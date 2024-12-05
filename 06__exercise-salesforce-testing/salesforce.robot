@@ -8,7 +8,7 @@ Suite Teardown                Close All Browser Sessions
 Exercise 6 - Entering A Lead Tina Smith
     [tags]                    Lead
     Appstate                  Home
-    Launch App                 Sales
+    Launch App                 Saless
 
     ClickText                 Leads
     ${standard_active}=         IsText                      Recently Viewed             timeout=5s             delay=2s
