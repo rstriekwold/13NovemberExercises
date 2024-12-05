@@ -12,7 +12,7 @@ The purpose of this exercise is to learn how to find libraries and keywords. Use
 - Access to a Project
 - Robot created
 
-# Learning Objectives
+# Learning Objectivesdd
 
 - Know where to visit library keyword pages (bookmark them / add to favorites)
 - Explore and view the QWord Palette
