@@ -6,7 +6,7 @@ Welcome to **Exercise 3**. Find out great assets you can put in your toolbox.
 
 The purpose of this exercise is to learn how to find libraries and keywords. Used for creating your tests.
 
-# Prerequisite(s)
+# Prerequisite(s)s
 
 - Access to a Copado Robotic Testing Organization is required
 - Access to a Project
