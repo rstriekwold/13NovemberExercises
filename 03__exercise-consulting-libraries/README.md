@@ -2,8 +2,8 @@
 
 Welcome to **Exercise 3**. Find out great assets you can put in your toolbox.
 
-# Purposedddddeedwdddd
-
+# Purposedddddeedwddqqqd
+dsadd
 The purpose of this exercise is to learn how to find libraries and keywords. Used for creating your tests.
 
 # Prerequisite(s)s
