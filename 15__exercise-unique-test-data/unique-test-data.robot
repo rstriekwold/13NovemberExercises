@@ -30,11 +30,11 @@ Exercise 15 - Log Unique Test Data generated using FakerLibrary
 
 Exercise 15 - Todays Date
     ${date} =            Get Current Date
-    ${date_formatted}    Get Current Date           result_format=%m/%d/%Y
+    ${date_formatted}    Get Current Date          increment=-2 days    result_format=%m/%d/%Y
     
 Exercise 15 - Start and End Date
     ${date} =            Get Current Date
-    ${start_date} =      Add Time To Date           ${date}                   2 days      result_format=%m/%d/%Y
+    ${start_date} =      Add Time To Date           ${date}                   2 days      result_format=%m-%d-%Y
     ${end_date} =        Add Time To Date           ${date}                   150 days    result_format=%m/%d/%Y
 
 Exercise 15 - Date plus days
