@@ -7,6 +7,7 @@ Library                  DateTime
 Examples - DateTime - Todays Date
     ${date} =            Get Current Date
     ${date_formatted}    Get Current Date           result_format=%m/%d/%Y
+    Fail
     
 Examples - DateTime - Start and End Date
     ${date} =            Get Current Date
