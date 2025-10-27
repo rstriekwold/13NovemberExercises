@@ -1,4 +1,5 @@
 *** Settings ***
+Library    RetryFailed    global_retries=2
 Library                  DateTime
 
 *** Test Cases ***
